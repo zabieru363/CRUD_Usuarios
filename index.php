@@ -38,8 +38,8 @@
                         <option value="">Selecciona un usuario</option>
                     </select>
                 </div>
-                <button class="update-user-btn" name="Update">Actualizar usuario</button>
-                <button class="delete-user-btn" name="Delete">Eliminar seleccionados</button>
+                <button class="update-user-btn" name="Update"><i class="fa-solid fa-pencil"></i> Actualizar usuario</button>
+                <button class="delete-user-btn" name="Delete"><i class="fa-solid fa-trash"></i> Eliminar seleccionados</button>
             </form>
         </div>
 
