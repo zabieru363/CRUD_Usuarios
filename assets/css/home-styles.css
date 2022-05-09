@@ -1,6 +1,7 @@
 /* FUENTES */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik:wght@800&family=Square+Peg&display=swap');
 
+/* ESTILOS GENERALES */
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +9,57 @@
 }
 
 body {
-    background: url('../img/fondo.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: rgb(47, 47, 47);
+}
+
+/* ESTILOS CABECERA */
+header {
+    color: white;
+    display: flex;
+    padding: 2rem;
+    background: slateblue;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-form {
+    font-size: 2rem;
+}
+
+.search-form input {
+    padding: .2rem;
+    width: 15rem;
+    color: rgb(79, 79, 79);
+    border-radius: 2.5rem;
+    border: none;
+}
+
+.fa-magnifying-glass {
+    font-size: 1.5rem;
+}
+
+.new-user-btn {
+    padding: .2rem;
+    border: .2rem solid white;
+    border-radius: 1.2rem;
+    background: green;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+    flex-shrink: 0;
+}
+
+.new-user-btn:hover {
+    background: rgb(0, 159, 0);
+}
+
+/* Diseño responsive header */
+@media screen and (max-width: 750px){
+    header {
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
 }
