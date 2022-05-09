@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css//home-styles.css">
     </head>
     <body>
+        <p>Probando</p>
         <!-- FONT AWESOME -->
         <script src="https://kit.fontawesome.com/833d921ab7.js" crossorigin="anonymous"></script>
     </body>
