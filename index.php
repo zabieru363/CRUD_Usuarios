@@ -19,6 +19,29 @@
         </form>
         <a href="" class="new-user-btn"><i class="fa-solid fa-circle-plus"></i> Nuevo</a>
     </header>
+
+    <!-- Contenido principal -->
+    <div id="main-flex-container">
+        <table>
+            <th>Seleccionar</th>
+            <th>Usuario</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Email</th>
+            <th>Fecha registro</th>
+        </table>
+
+        <form name="action-form" class="update-form" method="POST" action="<?php echo $_SERVER["PHP_SELF"]?>">
+            <div id="update-form-flex-container">
+                <label for="users">Actualizar usuario</label><br>
+                <select name="users">
+                    <option value="">Selecciona un usuario</option>
+                </select>
+            </div>
+            <button class="update-user-btn" name="Update">Actualizar usuario</button>
+            <button class="delete-user-btn" name="Delete">Eliminar seleccionados</button>
+        </form>
+    </div>
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/833d921ab7.js" crossorigin="anonymous"></script>
 </body>

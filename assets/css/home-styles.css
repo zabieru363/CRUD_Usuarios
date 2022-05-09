@@ -63,3 +63,76 @@ header {
         flex-wrap: wrap;
     }
 }
+
+/* ESTILOS DEL CONTENIDO PRINCIPAL Y DE LA TABLA */
+#main-flex-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 5%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-flex-container table {
+    background: whitesmoke;
+    flex-basis: 1rem;
+    border-collapse: collapse;
+}
+
+#main-flex-container th {
+    background: slateblue;
+    padding: 1rem;
+}
+
+#main-flex-container td {
+    padding: 1rem;
+    background: whitesmoke;
+    color: black;
+}
+
+.update-form {
+    font-size: 1.5rem;
+}
+
+.update-form select {
+    padding: .5rem;
+    background: rgb(48, 48, 48);
+    color: white;
+}
+
+#update-form-flex-container {
+    display: flex;
+    padding: 1rem;
+}
+
+.update-user-btn {
+    cursor: pointer;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    background: rgb(194, 126, 0);
+    border: .2rem solid white;
+    border-radius: 1.5rem;
+    transition: all 1s;
+}
+
+.update-user-btn:hover {
+    background: rgb(255, 167, 4);
+}
+
+.delete-user-btn {
+    cursor: pointer;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    background: rgb(175, 0, 0);
+    border: .2rem solid white;
+    border-radius: 1.5rem;
+    transition: all 1s;
+}
+
+.delete-user-btn:hover {
+    background: rgb(255, 1, 1);
+}
