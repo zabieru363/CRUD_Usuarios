@@ -26,6 +26,8 @@ header {
 }
 
 .back-btn {
+    text-align: center;
+    text-decoration: none;
     width: 8rem;
     cursor: pointer;
     background: rgb(0, 93, 174);
@@ -38,4 +40,37 @@ header {
 
 .back-btn:hover {
     background: rgb(0, 136, 255);
+}
+
+/* ESTILOS CONTENEDOR FORMULARIO */
+#form-container {
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background: slateblue;
+    flex-shrink: 0;
+    width: 50%;
+    height: 60vh;
+    margin: auto;
+}
+
+.create-user-form, input {
+    font-size: 2rem;
+}
+
+.create-user-form input {
+    border-radius: 1.2rem;
+    border: 2px solid black;
+}
+
+.create-user-btn {
+    width: 10rem;
+    cursor: pointer;
+    color: white;
+    padding: 1rem;
+    background: green;
 }
