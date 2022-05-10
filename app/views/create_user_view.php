@@ -44,6 +44,11 @@
         </form>
     </div>
 
+    <!-- Footer -->
+    <footer>
+        Powered by Zabieru © <?= date("Y") ?>
+    </footer>
+
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/833d921ab7.js" crossorigin="anonymous"></script>
 </body>
